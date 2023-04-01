@@ -4,5 +4,10 @@ var sportsOne = ["Golf", "Baseball", "Tennis", "Soccer"];
 // }
 for (var _i = 0, sportsOne_1 = sportsOne; _i < sportsOne_1.length; _i++) {
     var tempSport = sportsOne_1[_i];
-    console.log(tempSport);
+    if (tempSport === "Baseball") {
+        console.log("".concat(tempSport, " is my favorite sport"));
+    }
+    else {
+        console.log(tempSport);
+    }
 }

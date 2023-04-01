@@ -9,6 +9,6 @@ for(let tempSport of sportsOne){
         console.log(`${tempSport} is my favorite sport`)
     }
     else{
-
+        console.log(tempSport);
     }
 }
